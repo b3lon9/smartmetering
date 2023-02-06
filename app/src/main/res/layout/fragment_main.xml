@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/layout_base"
@@ -55,23 +56,30 @@
 
         <EditText
             android:id="@+id/login_fragment_edit_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-        <EditText
-            android:id="@+id/login_fragment_edit_pw"
+            style="@style/login_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/frame_1256" />
+        <EditText
+            android:id="@+id/login_fragment_edit_pw"
+            style="@style/login_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame_1256"
             android:inputType="textPassword" />
         <Spinner
             android:id="@+id/login_fragment_server"
+            style="@style/login_edit"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame_1258"/>
 
         <Button
             android:id="@+id/login_fragment_login_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login" />
+            android:text="Login"
+            android:background="@drawable/btn_login"/>
     </LinearLayout>
 
     <!-- 2 24 -->
