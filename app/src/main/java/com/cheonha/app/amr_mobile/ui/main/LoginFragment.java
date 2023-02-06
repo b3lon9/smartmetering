@@ -8,6 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,4 +37,13 @@ public class LoginFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        this.getView().findViewById(R.id.login_fragment_bg).setOnClickListener(view1 -> {
+            Log.d("LoginFragment", "bg click");
+            getView().clearFocus();
+        });
+    }
 }

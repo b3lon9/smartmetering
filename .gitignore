@@ -49,6 +49,9 @@ Resources/
 /values/
 *.gradle
 *.bat
+.idea
+gradlew
+/drawable/
 
 
 # ios
