@@ -1,0 +1,60 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+*.config
+*.csproj
+*.sln
+
+.vs/
+bin/
+obj/
+Properties/
+
+# xamarin
+*.png
+*.plist
+*.user
+*.txt
+mipmap*/
+# Awesome project not commit
+AwesomeApp/
+
+# only xaml, cs
+# not .Net Framework
+.vs/
+
+# android
+*.apk
+*.dll
+*.pdb
+obj/
+mipmap*/
+Resources/
+*.jar
+*.properties
+/xml/
+/values/
+*.gradle
+*.bat
+
+
+# ios
+*.plist
+*.exe
+*.storyboard
+
+*.png
+*.json
