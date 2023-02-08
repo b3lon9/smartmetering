@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.cheonha.app.amr_mobile.ui.main.LoginFragment;
+import com.cheonha.app.amr_mobile.view.fragment.LoginFragment;
 
 public class MainActivity extends AppCompatActivity {
 

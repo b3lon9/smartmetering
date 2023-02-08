@@ -9,7 +9,7 @@
     android:layout_height="fill_parent"
     android:background="@drawable/some_id"
     android:clipToOutline="true"
-    tools:context=".ui.main.LoginFragment"
+    tools:context=".view.fragment.LoginFragment"
     android:clickable="true">
 
     <!-- BrandLogo 1 -->
@@ -78,6 +78,7 @@
             android:id="@+id/login_fragment_login_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="Login"
             android:background="@drawable/btn_login"/>
     </LinearLayout>

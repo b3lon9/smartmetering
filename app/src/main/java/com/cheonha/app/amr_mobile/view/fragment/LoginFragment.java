@@ -1,4 +1,4 @@
-package com.cheonha.app.amr_mobile.ui.main;
+package com.cheonha.app.amr_mobile.view.fragment;
 
 import androidx.lifecycle.ViewModelProvider;
 
@@ -16,6 +16,7 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 
 import com.cheonha.app.amr_mobile.R;
+import com.cheonha.app.amr_mobile.data.viewmodel.MainViewModel;
 
 public class LoginFragment extends Fragment {
 
@@ -38,7 +39,7 @@ public class LoginFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
         inputMethodManager = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-        return inflater.inflate(R.layout.fragment_main, container, false);
+        return inflater.inflate(R.layout.fragment_login, container, false);
     }
 
     @Override
